@@ -1,0 +1,317 @@
+
+*** Running vivado
+    with args -log molt_Booth.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source molt_Booth.tcl
+
+
+ECHO disattivato.
+ECHO disattivato.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source molt_Booth.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 461.719 ; gain = 198.469
+Command: read_checkpoint -auto_incremental -incremental C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/utils_1/imports/synth_1/molt_Booth.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/utils_1/imports/synth_1/molt_Booth.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top molt_Booth -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2040
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1275.414 ; gain = 411.055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'molt_Booth' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/molt_Booth.vhd:12]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-3491] module 'ButtonDebouncer' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/new/ButtonDebouncer.vhd:34' bound to instance 'BD' of component 'ButtonDebouncer' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/molt_Booth.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'ButtonDebouncer' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/new/ButtonDebouncer.vhd:46]
+	Parameter CLK_period bound to: 10 - type: integer 
+	Parameter btn_noise_time bound to: 10000000 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/new/ButtonDebouncer.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'ButtonDebouncer' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/new/ButtonDebouncer.vhd:46]
+INFO: [Synth 8-3491] module 'unita_operativa' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:4' bound to instance 'UO' of component 'unita_operativa' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/molt_Booth.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'unita_operativa' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:15]
+INFO: [Synth 8-3491] module 'registro8' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/registro8.vhd:4' bound to instance 'M' of component 'registro8' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'registro8' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/registro8.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'registro8' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/registro8.vhd:10]
+	Parameter width bound to: 17 - type: integer 
+INFO: [Synth 8-3491] module 'mux_21' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/mux_21.vhd:5' bound to instance 'MUX_SR_parallel_in' of component 'mux_21' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'mux_21' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/mux_21.vhd:12]
+	Parameter width bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_21' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/mux_21.vhd:12]
+INFO: [Synth 8-3491] module 'shift_register' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/shift_register.vhd:7' bound to instance 'AQ' of component 'shift_register' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'shift_register' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/shift_register.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'shift_register' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/shift_register.vhd:14]
+INFO: [Synth 8-3491] module 'adder_sub' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/adder_sub.vhd:4' bound to instance 'ADD_SUB' of component 'adder_sub' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'adder_sub' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/adder_sub.vhd:11]
+INFO: [Synth 8-3491] module 'ripple_carry' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:4' bound to instance 'RA' of component 'ripple_carry' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/adder_sub.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'ripple_carry' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:11]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA0' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:12]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd:4' bound to instance 'RA7' of component 'full_adder' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'ripple_carry' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'adder_sub' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/adder_sub.vhd:11]
+INFO: [Synth 8-3491] module 'cont_mod8' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/cont_mod8.vhd:6' bound to instance 'CONT' of component 'cont_mod8' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'cont_mod8' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/cont_mod8.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'cont_mod8' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/cont_mod8.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'unita_operativa' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd:15]
+INFO: [Synth 8-3491] module 'unita_controllo' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd:4' bound to instance 'UC' of component 'unita_controllo' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/molt_Booth.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'unita_controllo' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd:13]
+WARNING: [Synth 8-614] signal 'q0' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd:21]
+WARNING: [Synth 8-614] signal 'q_1' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'unita_controllo' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'molt_Booth' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/molt_Booth.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1367.379 ; gain = 503.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1367.379 ; gain = 503.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1367.379 ; gain = 503.020
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1367.379 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]
+Finished Parsing XDC File [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/molt_Booth_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/molt_Booth_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1460.648 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1460.648 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'BTN_state_reg' in module 'ButtonDebouncer'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'unita_controllo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             not_pressed |                               00 |                               00
+             chk_pressed |                               01 |                               01
+                 pressed |                               10 |                               10
+         chk_not_pressed |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'BTN_state_reg' using encoding 'sequential' in module 'ButtonDebouncer'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                         00000001 |                              000
+           acquisisci_op |                         00000010 |                              001
+                 wait_op |                         00000100 |                              111
+                    scan |                         00001000 |                              010
+                   somma |                         00010000 |                              011
+             sottrazione |                         00100000 |                              100
+                   shift |                         01000000 |                              101
+               incr_cont |                         10000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'unita_controllo'
+WARNING: [Synth 8-327] inferring latch for variable 'selAQ_reg' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd:32]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:43 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 24    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 4     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT2   |     6|
+|4     |LUT3   |    13|
+|5     |LUT4   |    11|
+|6     |LUT5   |    23|
+|7     |LUT6   |     7|
+|8     |FDRE   |    70|
+|9     |FDSE   |     1|
+|10    |LD     |     1|
+|11    |IBUF   |    19|
+|12    |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:01:06 . Memory (MB): peak = 1460.648 ; gain = 503.020
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:01:11 . Memory (MB): peak = 1460.648 ; gain = 596.289
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1460.648 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1460.648 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LD => LDCE: 1 instance 
+
+Synth Design complete | Checksum: cb49c89e
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:25 . Memory (MB): peak = 1460.648 ; gain = 974.062
+INFO: [Common 17-1381] The checkpoint 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/3_Macchine_Aritmetiche/Esercizio_7.2/Esercizio_7.2.runs/synth_1/molt_Booth.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file molt_Booth_utilization_synth.rpt -pb molt_Booth_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 23 18:58:28 2025...

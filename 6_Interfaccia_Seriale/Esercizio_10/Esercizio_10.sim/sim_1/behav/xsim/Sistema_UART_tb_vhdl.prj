@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/imports/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/MEM.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/imports/Elaborato_ASDI/8_Prova_Dicembre/Esercizio_12/Esercizio_12.srcs/sources_1/new/ROM.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/imports/Desktop/RS232RefComp.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/new/Sistema_A.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/new/Sistema_B.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/new/Sistema_UART.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/new/UCA.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/new/UCB.vhd" \
+"../../../../Esercizio_10.srcs/sources_1/imports/sources_1/imports/Elaborato_ASDI/8_Prova_Dicembre/Esercizio_12/Esercizio_12.srcs/sources_1/imports/new/counter.vhd" \
+"../../../../Esercizio_10.srcs/sim_1/new/Sistema_UART_tb.vhd" \
+
+# Do not sort compile order
+nosort

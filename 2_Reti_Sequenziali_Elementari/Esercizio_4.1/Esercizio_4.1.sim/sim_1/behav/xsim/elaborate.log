@@ -1,0 +1,10 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_shift_register_behav xil_defaultlib.tb_shift_register -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1537] value 2 is out of target constraint range 0 to 1 [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_4.1/Esercizio_4.1.srcs/sim_1/new/tb_shift_register_behavioral.vhd:92]
+WARNING: [VRFC 10-1537] value 2 is out of target constraint range 0 to 1 [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_4.1/Esercizio_4.1.srcs/sim_1/new/tb_shift_register_behavioral.vhd:98]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

@@ -1,0 +1,7 @@
+Running: xsim.dir/molt_Booth_behav/xsimk.exe -simmode gui -wdb molt_Booth_behav.wdb -simrunnum 0 -socket 53757
+Design successfully loaded
+Design Loading Memory Usage: 8800 KB (Peak: 8800 KB)
+Design Loading CPU Usage: 155 ms
+Simulation completed
+Simulation Memory Usage: 9284 KB (Peak: 9284 KB)
+Simulation CPU Usage: 234 ms

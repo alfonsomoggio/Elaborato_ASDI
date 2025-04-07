@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/7_Switch_Multistadio/Esercizio_11/Esercizio_11.srcs/sources_1/new/Switch_Multistadio.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Switch_Multistadio'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/7_Switch_Multistadio/Esercizio_11/Esercizio_11.srcs/sources_1/new/gestione_priorita.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'gestione_priorita'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/7_Switch_Multistadio/Esercizio_11/Esercizio_11.srcs/sim_1/new/Switch_Multistadio_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Switch_Multistadio_TB'

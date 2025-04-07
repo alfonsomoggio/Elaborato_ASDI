@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_5.1.srcs/sources_1/imports/Display7Seg - Vivado/clock_divider.vhd" \
+"../../../../Esercizio_5.1.srcs/sources_1/new/counter.vhd" \
+"../../../../Esercizio_5.1.srcs/sources_1/new/cronometro.vhd" \
+"../../../../Esercizio_5.1.srcs/sim_1/new/tb_cronometro.vhd" \
+
+# Do not sort compile order
+nosort

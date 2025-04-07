@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_12.srcs/sources_1/new/Calcola_G_P.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/Calcola_Riporti.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/Calcola_Somme.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/imports/new/FF.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/NodoA.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/NodoB.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/ROM.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/SOMMATORE_CLA.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/Sistema.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/UCA.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/new/UCB.vhd" \
+"../../../../Esercizio_12.srcs/sources_1/imports/new/counter.vhd" \
+"../../../../Esercizio_12.srcs/sim_1/new/tb_sistema.vhd" \
+
+# Do not sort compile order
+nosort

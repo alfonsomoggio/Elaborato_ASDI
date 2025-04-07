@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Mar 26 10:26:27 2025
+# Process ID: 3716
+# Current directory: C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.runs/synth_1
+# Command line: vivado.exe -log cronometro_onboard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cronometro_onboard.tcl
+# Log file: C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.runs/synth_1/cronometro_onboard.vds
+# Journal file: C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.runs/synth_1\vivado.jou
+# Running On: ALFONSOMOGGD51E, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 2, Host memory: 3201 MB
+#-----------------------------------------------------------
+source cronometro_onboard.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 463.711 ; gain = 199.375
+Command: synth_design -top cronometro_onboard -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8128
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1270.137 ; gain = 410.645
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cronometro_onboard' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:19]
+INFO: [Synth 8-3491] module 'convertitore_bin_bcd' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/new/convertitore_bin_bcd.vhd:6' bound to instance 'sec_conv' of component 'convertitore_bin_bcd' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'convertitore_bin_bcd' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/new/convertitore_bin_bcd.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'convertitore_bin_bcd' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/new/convertitore_bin_bcd.vhd:13]
+INFO: [Synth 8-3491] module 'convertitore_bin_bcd' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/new/convertitore_bin_bcd.vhd:6' bound to instance 'min_conv' of component 'convertitore_bin_bcd' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:78]
+INFO: [Synth 8-3491] module 'convertitore_bin_bcd' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/new/convertitore_bin_bcd.vhd:6' bound to instance 'hr_conv' of component 'convertitore_bin_bcd' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:79]
+INFO: [Synth 8-3491] module 'cronometro' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd:13' bound to instance 'crono' of component 'cronometro' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'cronometro' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd:27]
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/imports/Display7Seg - Vivado/clock_divider.vhd:6' bound to instance 'div' of component 'clock_divider' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/imports/Display7Seg - Vivado/clock_divider.vhd:16]
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/imports/Display7Seg - Vivado/clock_divider.vhd:16]
+	Parameter MAX_VALUE bound to: 59 - type: integer 
+	Parameter DIM bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:15' bound to instance 'count_sec' of component 'counter' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:32]
+	Parameter MAX_VALUE bound to: 59 - type: integer 
+	Parameter DIM bound to: 6 - type: integer 
+WARNING: [Synth 8-614] signal 'RST' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'counter' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:32]
+	Parameter MAX_VALUE bound to: 59 - type: integer 
+	Parameter DIM bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:15' bound to instance 'count_min' of component 'counter' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd:77]
+	Parameter MAX_VALUE bound to: 23 - type: integer 
+	Parameter DIM bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:15' bound to instance 'count_hr' of component 'counter' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'counter__parameterized2' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:32]
+	Parameter MAX_VALUE bound to: 23 - type: integer 
+	Parameter DIM bound to: 5 - type: integer 
+WARNING: [Synth 8-614] signal 'RST' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'counter__parameterized2' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'cronometro' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd:27]
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 500 - type: integer 
+INFO: [Synth 8-3491] module 'display_seven_segments' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:5' bound to instance 'dss' of component 'display_seven_segments' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'display_seven_segments' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:19]
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 500 - type: integer 
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 500 - type: integer 
+INFO: [Synth 8-3491] module 'clock_filter' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:13' bound to instance 'clk_filter' of component 'clock_filter' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'clock_filter' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:25]
+	Parameter CLKIN_freq bound to: 100000000 - type: integer 
+	Parameter CLKOUT_freq bound to: 500 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_filter' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd:25]
+INFO: [Synth 8-3491] module 'counter_mod8' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod8.vhd:10' bound to instance 'counter_instance' of component 'counter_mod8' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'counter_mod8' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod8.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'counter_mod8' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod8.vhd:17]
+INFO: [Synth 8-3491] module 'cathodes_manager' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:13' bound to instance 'cathodes_instance' of component 'cathodes_manager' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'cathodes_manager' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:20]
+INFO: [Synth 8-226] default block is never used [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:59]
+WARNING: [Synth 8-614] signal 'value' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:56]
+WARNING: [Synth 8-614] signal 'dots' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:56]
+INFO: [Synth 8-226] default block is never used [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'cathodes_manager' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd:20]
+INFO: [Synth 8-3491] module 'anodes_manager' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:4' bound to instance 'anodes_instance' of component 'anodes_manager' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'anodes_manager' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:11]
+INFO: [Synth 8-226] default block is never used [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'anodes_manager' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'display_seven_segments' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd:19]
+INFO: [Synth 8-3491] module 'gestione_switch' declared at 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/gestione_switch.vhd:4' bound to instance 'gest_sw' of component 'gestione_switch' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'gestione_switch' [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/gestione_switch.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'gestione_switch' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/gestione_switch.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'cronometro_onboard' (0#1) [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd:19]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:19 . Memory (MB): peak = 1361.348 ; gain = 501.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 1361.348 ; gain = 501.855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 1361.348 ; gain = 501.855
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1361.348 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]
+Finished Parsing XDC File [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/cronometro_onboard_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/cronometro_onboard_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1460.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1460.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:36 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   18 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   27 Bit        Muxes := 1     
+	   2 Input   18 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 2     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 4     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:52 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     2|
+|4     |LUT2   |     5|
+|5     |LUT3   |    23|
+|6     |LUT4   |    40|
+|7     |LUT5   |    38|
+|8     |LUT6   |    36|
+|9     |MUXF7  |     8|
+|10    |FDCE   |    17|
+|11    |FDRE   |    67|
+|12    |IBUF   |    12|
+|13    |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:56 . Memory (MB): peak = 1460.078 ; gain = 501.855
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:01:01 . Memory (MB): peak = 1460.078 ; gain = 600.586
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1460.078 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1460.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 6f00d3d3
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:30 . Memory (MB): peak = 1460.078 ; gain = 996.367
+INFO: [Common 17-1381] The checkpoint 'C:/Users/alfonsomoggio/Desktop/Esercizio_5.2/Esercizio_5.2.runs/synth_1/cronometro_onboard.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file cronometro_onboard_utilization_synth.rpt -pb cronometro_onboard_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 26 10:28:22 2025...

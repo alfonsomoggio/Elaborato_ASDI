@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_2.1.srcs/sources_1/new/Macchina_M.vhd" \
+"../../../../Esercizio_2.1.srcs/sources_1/new/ROM_16_8.vhd" \
+"../../../../Esercizio_2.1.srcs/sources_1/new/Sistema_S.vhd" \
+"../../../../Esercizio_2.1.srcs/sim_1/new/tb_sistemaS.vhd" \
+
+# Do not sort compile order
+nosort

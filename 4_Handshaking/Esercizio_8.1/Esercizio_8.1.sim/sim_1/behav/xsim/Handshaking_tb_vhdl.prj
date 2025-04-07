@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_8.1.srcs/sources_1/imports/new/FF.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/new/Handshaking.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/new/MEM.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/new/NodoA.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/new/NodoB.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/imports/sources_1/new/ROM.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/new/SUM.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/new/UCA.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/new/UCB.vhd" \
+"../../../../Esercizio_8.1.srcs/sources_1/imports/sources_1/imports/new/counter.vhd" \
+"../../../../Esercizio_8.1.srcs/sim_1/new/tb_sistema.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/new/ButtonDebouncer.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/adder_sub.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/cont_mod8.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/full_adder.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/mux_21.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/registro8.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/ripple_carry.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/imports/new/shift_register.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_controllo.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/new/unita_operativa.vhd" \
+"../../../../Esercizio_7.2.srcs/sources_1/imports/sources_1/new/molt_Booth.vhd" \
+
+# Do not sort compile order
+nosort

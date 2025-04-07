@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_4.1.srcs/sources_1/new/shift_register_behavioral.vhd" \
+"../../../../Esercizio_4.1.srcs/sim_1/new/tb_shift_register_behavioral.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_6.1.srcs/sources_1/new/M.vhd" \
+"../../../../Esercizio_6.1.srcs/sources_1/new/MEM.vhd" \
+"../../../../Esercizio_6.1.srcs/sources_1/new/ROM.vhd" \
+"../../../../Esercizio_6.1.srcs/sources_1/new/control_unit.vhd" \
+"../../../../Esercizio_6.1.srcs/sources_1/imports/new/counter.vhd" \
+"../../../../Esercizio_6.1.srcs/sources_1/new/sistema_PO_PC.vhd" \
+"../../../../Esercizio_6.1.srcs/sim_1/new/tb_sistema_PO_PC.vhd" \
+
+# Do not sort compile order
+nosort

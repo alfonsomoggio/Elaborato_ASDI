@@ -1,0 +1,7 @@
+Running: xsim.dir/cronometro_onboard_behav/xsimk.exe -simmode gui -wdb cronometro_onboard_behav.wdb -simrunnum 0 -socket 50744
+Design successfully loaded
+Design Loading Memory Usage: 8760 KB (Peak: 8760 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 9300 KB (Peak: 9300 KB)
+Simulation CPU Usage: 77 ms

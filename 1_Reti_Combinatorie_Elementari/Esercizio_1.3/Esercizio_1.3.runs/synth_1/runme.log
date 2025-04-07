@@ -1,0 +1,254 @@
+
+*** Running vivado
+    with args -log interconnection_on_board.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source interconnection_on_board.tcl
+
+
+ECHO disattivato.
+ECHO disattivato.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source interconnection_on_board.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 462.133 ; gain = 199.051
+Command: read_checkpoint -auto_incremental -incremental C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/utils_1/imports/synth_1/interconnection_on_board.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/utils_1/imports/synth_1/interconnection_on_board.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top interconnection_on_board -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5876
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1276.227 ; gain = 410.680
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'interconnection_on_board' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/new/interconnection_on_board.vhd:20]
+INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/Display7Seg - Vivado/control_unit.vhd:13' bound to instance 'cu' of component 'control_unit' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/new/interconnection_on_board.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/Display7Seg - Vivado/control_unit.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/Display7Seg - Vivado/control_unit.vhd:27]
+INFO: [Synth 8-3491] module 'interconnection' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/interconnection.vhd:32' bound to instance 'i' of component 'interconnection' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/new/interconnection_on_board.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'interconnection' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/interconnection.vhd:45]
+INFO: [Synth 8-3491] module 'mux_16_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:34' bound to instance 'MUX' of component 'mux_16_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/interconnection.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'mux_16_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:59]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:35' bound to instance 'mux0' of component 'mux_4_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'mux_4_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:47]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/sources_1/mux_2_1.vhd:11' bound to instance 'mux0' of component 'mux_2_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'mux_2_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/sources_1/mux_2_1.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'mux_2_1' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/sources_1/mux_2_1.vhd:23]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/sources_1/mux_2_1.vhd:11' bound to instance 'mux1' of component 'mux_2_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:70]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/sources_1/mux_2_1.vhd:11' bound to instance 'mux2' of component 'mux_2_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_1' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:47]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:35' bound to instance 'mux1' of component 'mux_4_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:88]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:35' bound to instance 'mux2' of component 'mux_4_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:97]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:35' bound to instance 'mux3' of component 'mux_4_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:106]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/imports/new/mux_4_1.vhd:35' bound to instance 'mux4' of component 'mux_4_1' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:116]
+INFO: [Synth 8-256] done synthesizing module 'mux_16_1' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/imports/sources_1/new/mux_16_1.vhd:59]
+INFO: [Synth 8-3491] module 'dmux_1_4' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/dmux_1_4.vhd:32' bound to instance 'DMUX' of component 'dmux_1_4' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/interconnection.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'dmux_1_4' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/dmux_1_4.vhd:43]
+INFO: [Synth 8-226] default block is never used [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/dmux_1_4.vhd:55]
+WARNING: [Synth 8-614] signal 'sel' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/dmux_1_4.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'dmux_1_4' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/dmux_1_4.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'interconnection' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/imports/sources_1/new/interconnection.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'interconnection_on_board' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/sources_1/new/interconnection_on_board.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1367.133 ; gain = 501.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1367.133 ; gain = 501.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 1367.133 ; gain = 501.586
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1367.133 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]
+Finished Parsing XDC File [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/interconnection_on_board_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/interconnection_on_board_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1456.121 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1456.121 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 15    
+	   4 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:47 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:47 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:47 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     1|
+|3     |LUT4  |     1|
+|4     |LUT5  |     4|
+|5     |LUT6  |     4|
+|6     |MUXF7 |     2|
+|7     |FDRE  |    22|
+|8     |IBUF  |    19|
+|9     |OBUF  |     4|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:49 . Memory (MB): peak = 1456.121 ; gain = 501.586
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:54 . Memory (MB): peak = 1456.121 ; gain = 590.574
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1456.121 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1456.121 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5d39d66c
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:07 . Memory (MB): peak = 1456.121 ; gain = 970.137
+INFO: [Common 17-1381] The checkpoint 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/1_Reti_Combinatorie_Elementari/Esercizio_1.3/Esercizio_1.3.runs/synth_1/interconnection_on_board.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file interconnection_on_board_utilization_synth.rpt -pb interconnection_on_board_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 12:39:28 2025...

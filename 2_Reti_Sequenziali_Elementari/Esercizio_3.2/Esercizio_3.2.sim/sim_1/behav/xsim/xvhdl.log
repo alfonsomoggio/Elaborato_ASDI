@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_3.2/Esercizio_3.2.srcs/sources_1/new/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_3.2/Esercizio_3.2.srcs/sources_1/new/top_level_ric.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_level_ric'

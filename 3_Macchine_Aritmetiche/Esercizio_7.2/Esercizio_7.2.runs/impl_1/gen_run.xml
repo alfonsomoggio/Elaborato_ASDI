@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1742752587">
+  <File Type="ROUTE-PWR" Name="molt_Booth_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="molt_Booth.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="molt_Booth_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="molt_Booth_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="molt_Booth_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="molt_Booth.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="molt_Booth_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="molt_Booth_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="molt_Booth_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="molt_Booth_opt.dcp"/>
+  <File Type="OPT-DRC" Name="molt_Booth_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="molt_Booth.hwdef"/>
+  <File Type="PWROPT-DCP" Name="molt_Booth_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="molt_Booth_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="molt_Booth_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="molt_Booth_placed.dcp"/>
+  <File Type="PLACE-IO" Name="molt_Booth_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="molt_Booth_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="molt_Booth_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="molt_Booth_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="molt_Booth_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="molt_Booth_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="molt_Booth_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="molt_Booth.bin"/>
+  <File Type="PLACE-TIMING" Name="molt_Booth_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="molt_Booth_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="molt_Booth_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="molt_Booth_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="molt_Booth.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="molt_Booth_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="molt_Booth_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="molt_Booth_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="molt_Booth.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="molt_Booth_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="molt_Booth_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="molt_Booth_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="molt_Booth_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="molt_Booth_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="molt_Booth_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="molt_Booth_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="molt_Booth_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="molt_Booth_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="molt_Booth_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="molt_Booth_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="molt_Booth_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="molt_Booth_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="molt_Booth_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="molt_Booth_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="molt_Booth_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="molt_Booth_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="molt_Booth_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="molt_Booth_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="molt_Booth_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="molt_Booth_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="molt_Booth_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="molt_Booth_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="molt_Booth_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="molt_Booth_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="molt_Booth_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="molt_Booth_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="molt_Booth.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="molt_Booth_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="molt_Booth_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="molt_Booth.nky"/>
+  <File Type="BITSTR-BMM" Name="molt_Booth_bd.bmm"/>
+  <File Type="PDI-FILE" Name="molt_Booth.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="molt_Booth_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="molt_Booth_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="molt_Booth.rcfi"/>
+  <File Type="CFI_FILE" Name="molt_Booth.cfi"/>
+  <File Type="RNPI_FILE" Name="molt_Booth.rnpi"/>
+  <File Type="NPI_FILE" Name="molt_Booth.npi"/>
+  <File Type="RBD_FILE" Name="molt_Booth.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="molt_Booth.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="molt_Booth.sysdef"/>
+  <File Type="BG-BGN" Name="molt_Booth.bgn"/>
+  <File Type="BG-DRC" Name="molt_Booth.drc"/>
+  <File Type="RDI-RDI" Name="molt_Booth.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="molt_Booth_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="molt_Booth_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/ButtonDebouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Downloads/12_ROM_ON_DISPLAY/12_ROM_ON_DISPLAY/12_ROM_ON_DISPLAY.srcs/sources_1/imports/sources_1/new/ButtonDebouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1732003578"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/adder_sub.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/imports/new/adder_sub.vhd"/>
+        <Attr Name="ImportTime" Val="1732800756"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/cont_mod8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/imports/new/cont_mod8.vhd"/>
+        <Attr Name="ImportTime" Val="1732800756"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/full_adder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/imports/new/full_adder.vhd"/>
+        <Attr Name="ImportTime" Val="1732800757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/mux_21.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/imports/new/mux_21.vhd"/>
+        <Attr Name="ImportTime" Val="1742728500"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/registro8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/imports/new/registro8.vhd"/>
+        <Attr Name="ImportTime" Val="1732800757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/ripple_carry.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/imports/new/ripple_carry.vhd"/>
+        <Attr Name="ImportTime" Val="1732800757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/shift_register.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/imports/new/shift_register.vhd"/>
+        <Attr Name="ImportTime" Val="1742728727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/unita_controllo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/new/unita_controllo.vhd"/>
+        <Attr Name="ImportTime" Val="1742733312"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/unita_operativa.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/new/unita_operativa.vhd"/>
+        <Attr Name="ImportTime" Val="1742728779"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/molt_Booth.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Esercizio_7/Esercizio_7.srcs/sources_1/new/molt_Booth.vhd"/>
+        <Attr Name="ImportTime" Val="1742727997"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="molt_Booth"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../digilent-xdc-master/digilent-xdc-master/Nexys-A7-50T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1731400832"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/molt_Booth.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,236 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Mar 26 16:03:07 2025
+# Process ID: 1140
+# Current directory: C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.runs/synth_1
+# Command line: vivado.exe -log NodoA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source NodoA.tcl
+# Log file: C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.runs/synth_1/NodoA.vds
+# Journal file: C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.runs/synth_1\vivado.jou
+# Running On: ALFONSOMOGGD51E, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 2, Host memory: 3201 MB
+#-----------------------------------------------------------
+source NodoA.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 460.887 ; gain = 195.723
+Command: synth_design -top NodoA -part xc7a50ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12204
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 897.469 ; gain = 411.742
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'NodoA' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoA.vhd:15]
+	Parameter N bound to: 8 - type: integer 
+	Parameter DIM bound to: 3 - type: integer 
+	Parameter M bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/new/ROM.vhd:5' bound to instance 'MEM' of component 'ROM' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoA.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/new/ROM.vhd:18]
+	Parameter N bound to: 8 - type: integer 
+	Parameter DIM bound to: 3 - type: integer 
+	Parameter M bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/new/ROM.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/new/ROM.vhd:18]
+	Parameter MAX_VALUE bound to: 7 - type: integer 
+	Parameter DIM bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/imports/new/counter.vhd:15' bound to instance 'COUNT' of component 'counter' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoA.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/imports/new/counter.vhd:32]
+	Parameter MAX_VALUE bound to: 7 - type: integer 
+	Parameter DIM bound to: 3 - type: integer 
+WARNING: [Synth 8-614] signal 'RST' is read in the process but is not in the sensitivity list [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/imports/new/counter.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'counter' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/imports/new/counter.vhd:32]
+INFO: [Synth 8-3491] module 'Registro' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/new/FF.vhd:4' bound to instance 'REG' of component 'Registro' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoA.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'Registro' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/new/FF.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Registro' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/new/FF.vhd:14]
+INFO: [Synth 8-3491] module 'UCA' declared at 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/UCA.vhd:5' bound to instance 'control_unit' of component 'UCA' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoA.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'UCA' [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/UCA.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'UCA' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/UCA.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'NodoA' (0#1) [C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoA.vhd:15]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 988.117 ; gain = 502.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 988.117 ; gain = 502.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 988.117 ; gain = 502.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'stato_corrente_reg' in module 'UCA'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                           000001 |                              000
+                      s1 |                           000010 |                              001
+                      s2 |                           000100 |                              010
+                      s3 |                           001000 |                              011
+                      s4 |                           010000 |                              100
+                      s5 |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'stato_corrente_reg' using encoding 'one-hot' in module 'UCA'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 988.117 ; gain = 502.391
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   6 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 4     
+	   8 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 1179.012 ; gain = 693.285
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 1181.680 ; gain = 695.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:39 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     3|
+|3     |LUT3 |     7|
+|4     |LUT4 |     1|
+|5     |LUT6 |     2|
+|6     |FDCE |     3|
+|7     |FDRE |    13|
+|8     |FDSE |     1|
+|9     |IBUF |     4|
+|10    |OBUF |     5|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------+---------+------+
+|      |Instance       |Module   |Cells |
++------+---------------+---------+------+
+|1     |top            |         |    40|
+|2     |  COUNT        |counter  |     6|
+|3     |  MEM          |ROM      |     8|
+|4     |  REG          |Registro |     4|
+|5     |  control_unit |UCA      |    12|
++------+---------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:49 . Memory (MB): peak = 1190.902 ; gain = 705.176
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1194.766 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1282.781 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: d2c02575
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:55 . Memory (MB): peak = 1282.781 ; gain = 821.895
+INFO: [Common 17-1381] The checkpoint 'C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.runs/synth_1/NodoA.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file NodoA_utilization_synth.rpt -pb NodoA_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 26 16:04:39 2025...

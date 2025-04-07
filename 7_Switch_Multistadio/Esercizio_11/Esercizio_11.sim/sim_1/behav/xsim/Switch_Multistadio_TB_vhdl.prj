@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_11.srcs/sources_1/new/Omega_Network.vhd" \
+"../../../../Esercizio_11.srcs/sources_1/new/Switch_Multistadio.vhd" \
+"../../../../Esercizio_11.srcs/sources_1/new/demux_1_2.vhd" \
+"../../../../Esercizio_11.srcs/sources_1/new/gestione_priorita.vhd" \
+"../../../../Esercizio_11.srcs/sources_1/imports/sources_1/mux_2_1.vhd" \
+"../../../../Esercizio_11.srcs/sources_1/new/switch_elementare.vhd" \
+"../../../../Esercizio_11.srcs/sim_1/new/Switch_Multistadio_TB.vhd" \
+
+# Do not sort compile order
+nosort

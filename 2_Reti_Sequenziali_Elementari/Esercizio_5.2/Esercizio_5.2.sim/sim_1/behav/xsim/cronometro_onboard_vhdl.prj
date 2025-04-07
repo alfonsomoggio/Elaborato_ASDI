@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/anodes_manager.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/cathodes_manager.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/sources_1/imports/Display7Seg - Vivado/clock_divider.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/clock_filter.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/new/convertitore_bin_bcd.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/sources_1/new/counter.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/counter_mod8.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/sources_1/new/cronometro.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/imports/Display7Seg - Vivado/display_seven_segments.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/new/gestione_switch.vhd" \
+"../../../../Esercizio_5.2.srcs/sources_1/new/cronometro_onboard.vhd" \
+
+# Do not sort compile order
+nosort

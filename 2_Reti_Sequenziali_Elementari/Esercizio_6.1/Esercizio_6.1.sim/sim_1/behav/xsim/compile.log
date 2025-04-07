@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_6.1/Esercizio_6.1.srcs/sources_1/new/M.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'M'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_6.1/Esercizio_6.1.srcs/sources_1/new/MEM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MEM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_6.1/Esercizio_6.1.srcs/sources_1/new/ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_6.1/Esercizio_6.1.srcs/sources_1/new/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_6.1/Esercizio_6.1.srcs/sources_1/imports/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_6.1/Esercizio_6.1.srcs/sources_1/new/sistema_PO_PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sistema_PO_PC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_6.1/Esercizio_6.1.srcs/sim_1/new/tb_sistema_PO_PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_sistema_PO_PC'

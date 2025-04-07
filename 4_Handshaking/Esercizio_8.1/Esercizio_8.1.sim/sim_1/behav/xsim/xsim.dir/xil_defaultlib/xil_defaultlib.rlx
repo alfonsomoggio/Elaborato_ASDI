@@ -1,0 +1,15 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sim_1/new/tb_sistema.vhd,1741783887,vhdl,,,,handshaking_tb,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/new/FF.vhd,1740250666,vhdl,,,,registro,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/imports/new/counter.vhd,1741361434,vhdl,,,,counter,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/imports/sources_1/new/ROM.vhd,1740414758,vhdl,,,,rom,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/Handshaking.vhd,1741785243,vhdl,,,,handshaking,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/MEM.vhd,1740412247,vhdl,,,,mem,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoA.vhd,1741785121,vhdl,,,,nodoa,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/NodoB.vhd,1741784927,vhdl,,,,nodob,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/SUM.vhd,1741630320,vhdl,,,,sum,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/UCA.vhd,1741798204,vhdl,,,,uca,,,,,,,,
+C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/4_Handshaking/Esercizio_8.1/Esercizio_8.1.srcs/sources_1/new/UCB.vhd,1741785113,vhdl,,,,ucb,,,,,,,,

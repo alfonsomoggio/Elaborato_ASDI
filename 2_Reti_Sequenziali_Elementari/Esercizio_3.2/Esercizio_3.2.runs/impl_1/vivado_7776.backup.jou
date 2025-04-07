@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Feb 18 18:16:16 2025
+# Process ID: 7776
+# Current directory: C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_3.2/Esercizio_3.2.runs/impl_1
+# Command line: vivado.exe -log top_level_ric.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_level_ric.tcl -notrace
+# Log file: C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_3.2/Esercizio_3.2.runs/impl_1/top_level_ric.vdi
+# Journal file: C:/Users/alfonsomoggio/Desktop/Elaborato_ASDI/2_Reti_Sequenziali_Elementari/Esercizio_3.2/Esercizio_3.2.runs/impl_1\vivado.jou
+# Running On: ALFONSOMOGGD51E, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 2, Host memory: 3201 MB
+#-----------------------------------------------------------
+source top_level_ric.tcl -notrace
